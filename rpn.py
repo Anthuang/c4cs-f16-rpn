@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
 def calculate(myarg1):
-	pass
+	for token in myarg1.split():
+    print(token)
 
 def main():
 	while True:
